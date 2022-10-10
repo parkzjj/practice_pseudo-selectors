@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+.mainscreen {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    height: 100vh;
+    background-color: gray;
+}
+
+.include {
+    margin: 30px 0px;
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.eachcolor {
+    width: 180px;
+    height: 300px;
+    /* position: relative; */
+}
+
+.include :first-child {
+    background-color: tomato;
+}
+.include :nth-child(2) {
+    background-color: teal;
+}
+.include :nth-child(3) {
+    background-color: burlywood;
+}
+.include :last-child {
+    background-color: thistle;
+}
+
+.colorinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    /* position: absolute; */
+    /* top: 20px; */
+}
